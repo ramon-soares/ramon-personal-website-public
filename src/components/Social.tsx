@@ -1,21 +1,10 @@
-
-import { Youtube, Instagram, Music2 } from "lucide-react";
+import { Youtube } from "lucide-react";
 
 const social = [
   {
     name: "YouTube",
     icon: Youtube,
-    url: "https://www.youtube.com/@codandoamatrix365",
-  },
-  {
-    name: "Instagram",
-    icon: Instagram,
-    url: "https://www.instagram.com/codandoamatrix/",
-  },
-  {
-    name: "TikTok",
-    icon: Music2,
-    url: "https://www.tiktok.com/@codandoamatrix",
+    url: "https://www.youtube.com/@codandoamatrix",
   },
 ];
 
@@ -26,13 +15,12 @@ const Social = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Redes Sociais</h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-4">
-            No Codando a Matrix, compartilho conhecimentos e experiências sobre análise de dados, programação e tecnologia. 
-            O canal no YouTube é focado em tutoriais práticos e aprofundados, enquanto mantenho presença no Instagram e TikTok 
-            para alcançar diferentes públicos interessados em tecnologia.
+            No Codando a Matrix, compartilho conhecimentos e experiências sobre análise de dados, programação e tecnologia.
+            O canal no YouTube é totalmente voltado para tutoriais práticos e aprofundados, trazendo conteúdos que ajudam desde iniciantes até usuários avançados a desenvolver habilidades técnicas de forma clara e objetiva.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 gap-8 max-w-sm mx-auto">
           {social.map((item, index) => (
             <a
               key={index}

@@ -1,18 +1,21 @@
-
 import { BadgeCheck } from "lucide-react";
 
 const skills = [
   { name: "Python", level: "Avançado" },
   { name: "SQL", level: "Avançado" },
-  { name: "Análise de Dados", level: "Avançado", description: "Pandas, Numpy, Matplotlib, Plotly, Seaborn, Metabase, Google Analytics" },
+  {
+    name: "Análise de Dados",
+    level: "Avançado",
+    description: "Pandas, Numpy, Matplotlib, Plotly, Seaborn, Metabase, Google Analytics",
+  },
   { name: "Machine Learning", level: "Intermediário", description: "Scikit-learn, Keras" },
-  { name: "IA Generativa", level: "Intermediário", description: "Large Language Models (LLM), Prompting Engineering" },
+  { name: "IA Generativa", level: "Intermediário", description: "Large Language Models (LLM), Prompt Engineering" },
   { name: "Engenharia de Dados", level: "Intermediário", description: "Airflow" },
   { name: "Docker", level: "Básico" },
   { name: "Git", level: "Básico" },
-  { 
-    name: "Outras Ferramentas e Skills", 
-    description: "Web Scraping, Automação de Processos, Google Tag Manager" 
+  {
+    name: "Outras Ferramentas e Skills",
+    description: "Web Scraping, Automação de Processos, Google Tag Manager",
   },
 ];
 
@@ -38,12 +41,8 @@ const Skills = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">{skill.name}</h3>
-                  {skill.level && (
-                    <p className="text-sm text-gray-600">{skill.level}</p>
-                  )}
-                  {skill.description && (
-                    <p className="text-xs text-gray-500 mt-1">{skill.description}</p>
-                  )}
+                  {skill.level && <p className="text-sm text-gray-600">{skill.level}</p>}
+                  {skill.description && <p className="text-xs text-gray-500 mt-1">{skill.description}</p>}
                 </div>
               </div>
             </div>

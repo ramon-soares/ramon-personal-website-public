@@ -1,14 +1,18 @@
-
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const experiences = [
   {
-    title: "Analista de Dados Pleno",
+    title: "Analista de Dados Sênior",
     company: "MindMiners",
-    period: "ago de 2024 - Presente",
+    period: "ago de 2025 - o momento",
   },
   {
-    title: "Analista de Dados Junior",
+    title: "Analista de Dados Pleno",
+    company: "MindMiners",
+    period: "ago de 2024 - ago de 2025",
+  },
+  {
+    title: "Analista de Dados Júnior",
     company: "MindMiners",
     period: "mar de 2023 - ago de 2024",
   },
@@ -35,7 +39,7 @@ const Experience = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Experiência Profissional</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">Minha jornada profissional</p>
         </div>
-        
+
         <div className="max-w-3xl mx-auto">
           {experiences.map((exp, index) => (
             <div
@@ -49,7 +53,9 @@ const Experience = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{exp.title}</h3>
-                  <p className="text-gray-600 mb-2">{exp.company} • {exp.period}</p>
+                  <p className="text-gray-600 mb-2">
+                    {exp.company} - {exp.period}
+                  </p>
                 </div>
               </div>
             </div>
@@ -71,7 +77,9 @@ const Experience = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">{edu.title}</h3>
-                  <p className="text-gray-600 mb-2">{edu.institution} • {edu.period}</p>
+                  <p className="text-gray-600 mb-2">
+                    {edu.institution} - {edu.period}
+                  </p>
                 </div>
               </div>
             </div>
