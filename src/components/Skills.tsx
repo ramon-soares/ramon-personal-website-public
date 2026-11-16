@@ -11,19 +11,22 @@ const skills = [
   { name: "Machine Learning", level: "Intermediário", description: "Scikit-learn, Keras" },
   {
     name: "IA Generativa Aplicada",
+    level: "Intermediário",
     description: "Integração com APIs de LLMs e automação de processos com Python.",
   },
   {
     name: "RAG e Busca Semântica",
+    level: "Intermediário",
     description: "Recuperação de contexto e geração de respostas baseadas em documentos.",
   },
   {
     name: "Agentes e Workflows de IA",
+    level: "Intermediário",
     description: "Criação de skills reutilizáveis e configuração de fluxos de trabalho com Claude e Codex.",
   },
   { name: "Engenharia de Dados", level: "Intermediário", description: "Airflow" },
   { name: "Docker", level: "Básico" },
-  { name: "Git", level: "Básico" },
+  { name: "Git", level: "Intermediário" },
   {
     name: "Outras Ferramentas e Skills",
     description: "Web Scraping, Automação de Processos, Google Tag Manager",
