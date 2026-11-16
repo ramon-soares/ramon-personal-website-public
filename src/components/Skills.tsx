@@ -1,32 +1,28 @@
 import { BadgeCheck } from "lucide-react";
 
 const skills = [
-  { name: "Python", level: "Avançado" },
-  { name: "SQL", level: "Avançado" },
+  { name: "Python" },
+  { name: "SQL" },
   {
     name: "Análise de Dados",
-    level: "Avançado",
     description: "Pandas, Numpy, Matplotlib, Plotly, Seaborn, Metabase, Google Analytics",
   },
-  { name: "Machine Learning", level: "Intermediário", description: "Scikit-learn, Keras" },
+  { name: "Machine Learning", description: "Scikit-learn, Keras" },
   {
     name: "IA Generativa Aplicada",
-    level: "Intermediário",
     description: "Integração com APIs de LLMs e automação de processos com Python.",
   },
   {
     name: "RAG e Busca Semântica",
-    level: "Intermediário",
     description: "Recuperação de contexto e geração de respostas baseadas em documentos.",
   },
   {
     name: "Agentes e Workflows de IA",
-    level: "Intermediário",
     description: "Criação de skills reutilizáveis e configuração de fluxos de trabalho com Claude e Codex.",
   },
-  { name: "Engenharia de Dados", level: "Intermediário", description: "Airflow" },
-  { name: "Docker", level: "Básico" },
-  { name: "Git", level: "Intermediário" },
+  { name: "Engenharia de Dados", description: "Airflow" },
+  { name: "Docker" },
+  { name: "Git" },
   {
     name: "Outras Ferramentas e Skills",
     description: "Web Scraping, Automação de Processos, Google Tag Manager",
@@ -55,7 +51,6 @@ const Skills = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">{skill.name}</h3>
-                  {skill.level && <p className="text-sm text-gray-600">{skill.level}</p>}
                   {skill.description && <p className="text-xs text-gray-500 mt-1">{skill.description}</p>}
                 </div>
               </div>
