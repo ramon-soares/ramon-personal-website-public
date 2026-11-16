@@ -9,7 +9,18 @@ const skills = [
     description: "Pandas, Numpy, Matplotlib, Plotly, Seaborn, Metabase, Google Analytics",
   },
   { name: "Machine Learning", level: "Intermediário", description: "Scikit-learn, Keras" },
-  { name: "IA Generativa", level: "Intermediário", description: "Large Language Models (LLM), Prompt Engineering" },
+  {
+    name: "IA Generativa Aplicada",
+    description: "Integração com APIs de LLMs e automação de processos com Python.",
+  },
+  {
+    name: "RAG e Busca Semântica",
+    description: "Recuperação de contexto e geração de respostas baseadas em documentos.",
+  },
+  {
+    name: "Agentes e Workflows de IA",
+    description: "Criação de skills reutilizáveis e configuração de fluxos de trabalho com Claude e Codex.",
+  },
   { name: "Engenharia de Dados", level: "Intermediário", description: "Airflow" },
   { name: "Docker", level: "Básico" },
   { name: "Git", level: "Básico" },
