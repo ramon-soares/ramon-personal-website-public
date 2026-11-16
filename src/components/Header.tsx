@@ -36,7 +36,6 @@ const Header = () => {
             <a href="#" className="text-gray-600 hover:text-primary transition-colors">Sobre</a>
             <a href="#experiencia" className="text-gray-600 hover:text-primary transition-colors">Experiência</a>
             <a href="#habilidades" className="text-gray-600 hover:text-primary transition-colors">Habilidades</a>
-            <a href="#social" className="text-gray-600 hover:text-primary transition-colors">Social</a>
           </div>
         </div>
       </nav>

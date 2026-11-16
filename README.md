@@ -30,7 +30,6 @@ O preview usa o caminho `/ramon-personal-website-public/`.
 | Cabeçalho e navegação | `src/components/Header.tsx` |
 | Experiência profissional e formação | `src/components/Experience.tsx` |
 | Habilidades | `src/components/Skills.tsx` |
-| Redes sociais | `src/components/Social.tsx` |
 | Cores, fontes e estilos | `tailwind.config.ts` e `src/index.css` |
 | Título e metadados | `index.html` |
 
@@ -60,7 +59,7 @@ renomeado, ajuste o `base` no Vite e o endereço documentado aqui.
 
 Este repositório público é a fonte de código e de publicação do site. Ele já
 contém as atualizações posteriores à versão privada `ramon-personal-website`,
-incluindo a experiência como Analista de Dados Sênior e os links sociais atuais.
+incluindo a experiência como Analista de Dados Sênior.
 O build e o deploy não acessam o repositório privado nem dependem do Lovable.
 
 A branch `gh-pages` antiga pode ser mantida como referência; ela deixa de ser
